@@ -13,8 +13,8 @@ public class App {
         Cat cat1 = applicationContext.getBean(Cat.class);
         Cat cat2 = applicationContext.getBean(Cat.class);
 
-        System.out.println("Сравнение ссылок HelloWorld: " + (helloWorld1 == bean));
-        System.out.println("Сравнение ссылок для cat: " + (cat1 == cat2));
+        System.out.println((helloWorld1 == bean));
+        System.out.println((cat1 == cat2));
 
     }
 }
